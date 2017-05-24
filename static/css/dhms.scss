@@ -17,7 +17,7 @@
 .sidebar-this {
   position: fixed;
   top: 100px;
-  margin-left: 0;
+  margin-left: -$sidebarLeftWidth;
 }
 .css-name {
   padding: 0 20px
