@@ -1,0 +1,123 @@
+/* colorMain */
+$colorMain: #FD8A03;
+#root {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+}
+.service-sales {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* left */
+$serviceLeftWidth: 240px;
+.service-left {
+  float: left;
+  width: $serviceLeftWidth;
+  height: 100%;
+  background: #2B3A40;
+  margin-left: -100%;
+}
+.service-logo {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #1D2A2F;
+}
+.service-nar {
+  width: 100%;
+  padding: 20px 0;
+  li {
+    height: 45px;
+    line-height: 45px;
+    margin: 0 20px;
+    a {
+      color: #E9E9E9;
+      text-decoration: none;
+    }
+    &:hover,&.active {
+      border-left: 5px solid $colorMain;
+      margin: 0;
+      padding: 0 20px 0 15px;
+      background: #222D32;
+    }
+  }
+}
+
+/* serviceMain */
+.service-main {
+  float: left;
+  width: 100%;
+  padding-left: $serviceLeftWidth;
+}
+.service-head {
+  width: 100%;
+  height: 75px;
+  padding: 0 20px;
+  background: #fff;
+}
+.service-content {
+  padding: 0 20px;
+  .name {
+    color: #4A4A4A;
+    padding: 20px 0;
+  }
+}
+.no-div-table {
+  display: block;
+  border: 0;
+  padding: 20px 0;
+  .div-table-tr  {
+    line-height: 45px;
+    height: 45px;
+    margin-top: 15px;
+    &:first-child {
+      margin-top: 0;
+    }
+  > div {
+    display: inline-block;
+    border: 0;
+    padding: 0 0 0 15px;
+    &:first-child {
+      border: 0;
+      padding: 0;
+    }
+    }
+    input, textarea {
+      font-size: 16px;
+      min-height: 45px;
+      line-height: 25px;
+      padding: 10px;
+      border: 1px solid #E5E5E5;
+      border-radius: 5px;
+    }
+    select {
+      font-size: 16px;
+      height: 45px;
+      line-height: 25px;
+      border: 1px solid #E5E5E5;
+      border-radius: 5px;
+    }
+    .button {
+      width: 50%;
+      height: 45px;
+    }
+  }
+  .has-error-word {
+    height: 45px;
+    padding: 0 5px;
+    line-height: 45px;
+    border-radius: 5px;
+    &.right{
+      width: 200px;
+      margin-left: 15px;
+      i.arrow {
+        top: 18px;
+      }
+    }
+  }
+}
+
+

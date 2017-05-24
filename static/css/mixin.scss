@@ -1,0 +1,19 @@
+@mixin blandMixin($height) {
+    width: 100%;
+    height: #{$height}px;
+}
+@mixin fontSize($size) {
+  font-size: #{$size}px;
+}
+@mixin dhmsCol($number) {
+  width: #{100%/24*$number} ;
+}
+@mixin dhmsPull($number) {
+  right: #{100%/24*$number} ;
+}
+@mixin dhmsPush($number) {
+  left: #{100%/24*$number} ;
+}
+@mixin dhmsOffset($number) {
+  margin-left: #{100%/24*$number} ;
+}

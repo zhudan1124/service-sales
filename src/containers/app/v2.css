@@ -1,0 +1,104 @@
+/* colorMain */
+#root {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3; }
+
+.service-sales {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+/* left */
+.service-left {
+  float: left;
+  width: 240px;
+  height: 100%;
+  background: #2B3A40;
+  margin-left: -100%; }
+
+.service-logo {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #1D2A2F; }
+
+.service-nar {
+  width: 100%;
+  padding: 20px 0; }
+  .service-nar li {
+    height: 45px;
+    line-height: 45px;
+    margin: 0 20px; }
+    .service-nar li a {
+      color: #E9E9E9;
+      text-decoration: none; }
+    .service-nar li:hover, .service-nar li.active {
+      border-left: 5px solid #FD8A03;
+      margin: 0;
+      padding: 0 20px 0 15px;
+      background: #222D32; }
+
+/* serviceMain */
+.service-main {
+  float: left;
+  width: 100%;
+  padding-left: 240px; }
+
+.service-head {
+  width: 100%;
+  height: 75px;
+  padding: 0 20px;
+  background: #fff; }
+
+.service-content {
+  padding: 0 20px; }
+  .service-content .name {
+    color: #4A4A4A;
+    padding: 20px 0; }
+
+.no-div-table {
+  display: block;
+  border: 0;
+  padding: 20px 0; }
+  .no-div-table .div-table-tr {
+    line-height: 45px;
+    height: 45px;
+    margin-top: 15px; }
+    .no-div-table .div-table-tr:first-child {
+      margin-top: 0; }
+    .no-div-table .div-table-tr > div {
+      display: inline-block;
+      border: 0;
+      padding: 0 0 0 15px; }
+      .no-div-table .div-table-tr > div:first-child {
+        border: 0;
+        padding: 0; }
+    .no-div-table .div-table-tr input, .no-div-table .div-table-tr textarea {
+      font-size: 16px;
+      min-height: 45px;
+      line-height: 25px;
+      padding: 10px;
+      border: 1px solid #E5E5E5;
+      border-radius: 5px; }
+    .no-div-table .div-table-tr select {
+      font-size: 16px;
+      height: 45px;
+      line-height: 25px;
+      border: 1px solid #E5E5E5;
+      border-radius: 5px; }
+    .no-div-table .div-table-tr .button {
+      width: 50%;
+      height: 45px; }
+  .no-div-table .has-error-word {
+    height: 45px;
+    padding: 0 5px;
+    line-height: 45px;
+    border-radius: 5px; }
+    .no-div-table .has-error-word.right {
+      width: 200px;
+      margin-left: 15px; }
+      .no-div-table .has-error-word.right i.arrow {
+        top: 18px; }
+
+/*# sourceMappingURL=v2.css.map */
