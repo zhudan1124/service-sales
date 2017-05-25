@@ -1076,13 +1076,25 @@ input[type="checkbox"]:focus {
       display:table-cell;
       height: 100%;
       vertical-align: top;
-      padding: 2px 5px;
+      padding: 0;
       word-wrap: break-word;
       border: 1px solid $colorBorder;
       border-left: 0 ;
       border-top: 0;
       &:first-child {
         border-left: 1px solid $colorBorder;
+      }
+      .td {
+        width: 50%;
+        display: inline-block;
+        border-left: 1px solid $colorBorder;
+        border-bottom: 1px solid $colorBorder;
+        &.no-border-left {
+          border-left: 0 !important;
+        }
+        &.no-border-bottom {
+          border-bottom: 0 !important;
+        }
       }
     }
   }
@@ -1180,7 +1192,37 @@ input[type="checkbox"]:focus {
     }
   }
 }
-
+.no-div-table {
+  display: block;
+  border: 0;
+  .div-table-tr  {
+    > div {
+      display: inline-block;
+      border: 0;
+      &:first-child {
+        border: 0;
+        padding: 0;
+      }
+    }
+    input, textarea {
+      border: 1px solid #E5E5E5;
+      border-radius: 5px;
+    }
+    select {
+      border: 1px solid #E5E5E5;
+      border-radius: 5px;
+    }
+  }
+  .has-error-word {
+    border-radius: 5px;
+    &.right{
+      margin-left: 15px;
+      i.arrow {
+        top: 18px;
+      }
+    }
+  }
+}
 /*-- Background --*/
 .bg-white {
   background: #fff;
@@ -1220,7 +1262,5 @@ $sidebarRightWidth: 0px;
   margin-left: -$sidebarRightWidth;
   width: $sidebarRightWidth;
 }
-
-
 
 
