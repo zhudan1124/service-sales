@@ -25,5 +25,3 @@ npm run dev
 ```
 npm run build
 ```
-
-# add for testing push
