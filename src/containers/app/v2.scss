@@ -3,7 +3,7 @@
 $colorMain: #FD8A03;
 #root {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background: #f3f3f3;
 }
 .service-sales {
@@ -15,11 +15,12 @@ $colorMain: #FD8A03;
 /* left */
 $serviceLeftWidth: 240px;
 .service-left {
-  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: $serviceLeftWidth;
   height: 100%;
   background: #2B3A40;
-  margin-left: -100%;
 }
 .service-logo {
   width: 100%;
@@ -58,7 +59,7 @@ $serviceLeftWidth: 240px;
   height: 75px;
   padding: 0 0 0 20px;
   background: #fff;
-  .icon-list {
+  .service-list {
     display: inline-block;
     width: 20px;
     height: 75px;
@@ -75,7 +76,7 @@ $serviceLeftWidth: 240px;
     display: inline-block;
     font-size: 14px;
     border-left: 1px solid #E9E9E9;
-    .icon-quit {
+    .service-quit {
       font-size: 20px;
       margin-right: 5px;
       margin-top: 27px;
@@ -154,5 +155,76 @@ $serviceLeftWidth: 240px;
   }
 }
 
+/* index */
+.index-list {
+  padding: 0 0 0 20px;
+  &:first-child {
+    padding: 0;
+  }
+  .list-info {
+    padding: 20px;
+    height: 120px;
+    overflow: hidden;
+    span.icon-box {
+      text-align: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 80px;
+      padding: 22px;
+      i {
+        font-size: 36px;
+      }
+      &.all {
+        background: #5A9EE3;
+      }
+      &.set {
+        background: #FDD003;
+      }
+      &.untreated {
+        background: #E35A5A;
+      }
+      &.finished {
+        background: #94E35A;
+      }
+    }
+    .list-word {
+      padding: 0 0 0 5%;
+      line-height: 36px;
+    }
+    .unmber {
+      font-size: 46px;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        color: $colorMain;
+      }
+    }
+    &:hover {
+      padding: 19px;
+      border: 1px solid $colorMain;
+    }
+  }
+}
+.add-new {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  line-height: 24px;
+  padding: 20px;
+  background: $colorMain;
+  i {
+    font-size: 55px;
+  }
+}
 
+/* recentProcess */
+.recent-process {
+  width: 100%;
+}
+.process-list li {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
 

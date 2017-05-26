@@ -6,13 +6,13 @@ const Nar = () => (
     </div>
     <ul className="service-nar font14">
       <li className="active">
-        <a>首页</a>
+        <a><i className="service-home" />首页</a>
       </li>
       <li>
-        <a>工单列表</a>
+        <a><i className="service-home-list" />工单列表</a>
       </li>
       <li>
-        <a>开工单</a>
+        <a><i className="service-add" />开工单</a>
       </li>
     </ul>
   </div>
