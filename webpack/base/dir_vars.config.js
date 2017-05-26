@@ -26,7 +26,7 @@ varsExports.apiHostDev = 'dev.dhms.cloud'
 varsExports.apiHostProd = 'www.dhms.cloud'
 varsExports.apiDev = ``
 varsExports.wsDev = `wss://${varsExports.apiHostDev}`
-varsExports.apiProd = '/'
+varsExports.apiProd = ''
 varsExports.wsProd = `wss://${varsExports.apiHostProd}`
 
 const cwp = []

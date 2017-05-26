@@ -62,7 +62,7 @@ const Index = () => (
           </div>
           <div className="fl label-info">
             <p><span className="color-super-gray">联系人：</span>张三</p>
-            <p><span className="color-super-gray">电话：</span>15995775963</p>
+            <p><span className="color-super-gray">电    话：</span>15995775963</p>
           </div>
         </li>
       </ul>
