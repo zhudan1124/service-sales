@@ -32,14 +32,18 @@ $serviceLeftWidth: 240px;
   width: 100%;
   padding: 20px 0;
   li {
-    height: 45px;
-    line-height: 45px;
-    margin: 0 20px;
     a {
+      display: block;
+      padding: 0 20px;
       color: #E9E9E9;
+      height: 45px;
+      line-height: 45px;
       text-decoration: none;
     }
-    &:hover,&.active {
+    i{
+      margin-right: 10px;
+    }
+    &:hover a,&.active a {
       border-left: 5px solid $colorMain;
       margin: 0;
       padding: 0 20px 0 15px;
@@ -213,8 +217,12 @@ $serviceLeftWidth: 240px;
   line-height: 24px;
   padding: 20px;
   background: $colorMain;
+  cursor: pointer;
   i {
     font-size: 55px;
+  }
+  &:hover {
+    background: #e67304;
   }
 }
 
@@ -226,5 +234,28 @@ $serviceLeftWidth: 240px;
   width: 100%;
   padding: 0 20px;
   margin-bottom: 20px;
+}
+.job-number {
+  width: 100%;
+  line-height: 22px;
+  padding: 11px 0;
+  .modify {
+    color: #fff !important;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 22px;
+    line-height: 22px;
+    background: $colorMain;
+    border-radius: 10px;
+    text-decoration: none;
+    &:hover {
+      background: #e67304;
+    }
+  }
+  .label-info {
+    width: 25%;
+
+  }
 }
 
