@@ -1263,4 +1263,44 @@ $sidebarRightWidth: 0px;
   width: $sidebarRightWidth;
 }
 
+/*--pagination--*/
+.pagination {
+  margin:0 auto;
+}
+.pagination a {
+  cursor: pointer;
+  text-decoration:none;
+  display:inline-block;
+  float:left;
+  text-align: center;
+  height:40px;
+  line-height:38px;
+  background:#f9f9f9;
+  color:#333;
+  border:1px solid #EBEBEB;
+  white-space:nowrap;
+  margin-left:-1px;
+  &:hover {
+    background:#fff;
+    text-decoration:none;
+  }
+  &.page-link {
+    width: 40px;
+  }
+  &.previous_link, &.next-link {
+    padding: 0 15px;
+  }
+  &.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    &:hover {
+      background:#f9f9f9;
+    }
+  }
+  &.active {
+    background: #666;
+    color: #fff;
+    border: 1px solid #e9e9e9;
+  }
+}
 

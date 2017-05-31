@@ -52,6 +52,7 @@ const Index = () => (
       <div className="blank20" />
       <ul className="process-list">
         <li className="bg-white color-black font14 clearfix">
+          <button className="button process-button font16">撤单</button>
           <p className="font16 job-number font16">
             工单号：0001
             <a className="modify font14 color-white">修改</a>
@@ -63,6 +64,57 @@ const Index = () => (
           <div className="fl label-info">
             <p><span className="color-super-gray">联系人：</span>张三</p>
             <p><span className="color-super-gray">电    话：</span>15995775963</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">提交时间：</span>2017-05-26</p>
+            <p><span className="color-super-gray">处理时间：</span>2017-05-28</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">文件描述：</span><br />不能正常运行</p>
+          </div>
+        </li>
+        <li className="bg-white color-black font14 clearfix">
+          <button className="button process-button font16">撤单</button>
+          <p className="font16 job-number font16">
+            工单号：0001
+            <a className="modify font14 color-white">修改</a>
+          </p>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">客户：</span>许厂矿</p>
+            <p><span className="color-super-gray">产品：</span>可制动装置</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">联系人：</span>张三</p>
+            <p><span className="color-super-gray">电    话：</span>15995775963</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">提交时间：</span>2017-05-26</p>
+            <p><span className="color-super-gray">处理时间：</span>2017-05-28</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">文件描述：</span><br />不能正常运行</p>
+          </div>
+        </li>
+        <li className="bg-white color-black font14 clearfix">
+          <button className="button process-button font16">撤单</button>
+          <p className="font16 job-number font16">
+            工单号：0001
+            <a className="modify font14 color-white">修改</a>
+          </p>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">客户：</span>许厂矿</p>
+            <p><span className="color-super-gray">产品：</span>可制动装置</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">联系人：</span>张三</p>
+            <p><span className="color-super-gray">电    话：</span>15995775963</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">提交时间：</span>2017-05-26</p>
+            <p><span className="color-super-gray">处理时间：</span>2017-05-28</p>
+          </div>
+          <div className="fl label-info">
+            <p><span className="color-super-gray">文件描述：</span><br />不能正常运行</p>
           </div>
         </li>
       </ul>
