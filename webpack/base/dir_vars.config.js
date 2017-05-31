@@ -19,6 +19,7 @@ varsExports.version = `${date.getFullYear()}.${pad(date.getMonth() + 1)}${pad(da
 varsExports.srcDir = path.join(varsExports.rootDir, './src')
 varsExports.staticDir = path.join(varsExports.rootDir, './static')
 varsExports.distDir = path.join(varsExports.rootDir, './dist')
+varsExports.buildDir = path.join(varsExports.rootDir, './build')
 varsExports.entryDir = path.join(varsExports.srcDir, './entries')
 varsExports.portDev = 8080
 varsExports.hostDev = 'http://v2.dhms.cloud'
