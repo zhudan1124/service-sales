@@ -10,13 +10,13 @@ const dirVars = require('./base/dir_vars.config')
 let plugins = require('./common/plugins.config')
 
 plugins.push(new HtmlWebpackPlugin({
-    version: dirVars.version,
-    template: 'templates/index.tpl.local.html',
-    favicon: 'static/img/favicon.ico',
-    inject: 'body',
-    filename: 'index.html',
-    chunks: ['manifest', 'common', 'index']
-  }))
+  version: dirVars.version,
+  template: 'templates/index.tpl.local.html',
+  favicon: 'static/img/favicon.ico',
+  inject: 'body',
+  filename: 'index.html',
+  chunks: ['manifest', 'common', 'index']
+}))
 
 plugins.push(new HtmlWebpackPlugin({
   version: dirVars.version,
@@ -25,6 +25,15 @@ plugins.push(new HtmlWebpackPlugin({
   inject: 'body',
   filename: 'v2.html',
   chunks: ['manifest', 'common', 'v2']
+}))
+
+plugins.push(new HtmlWebpackPlugin({
+  version: dirVars.version,
+  template: 'templates/picker.tpl.local.html',
+  favicon: 'static/img/favicon.ico',
+  inject: 'body',
+  filename: 'picker.html',
+  chunks: ['manifest', 'common', 'picker']
 }))
 
 let cwpDev = dirVars.cwpDev
