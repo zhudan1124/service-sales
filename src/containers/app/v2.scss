@@ -64,7 +64,7 @@ $serviceLeftWidth: 240px;
   height: 75px;
   padding: 0 0 0 20px;
   background: #fff;
-  .service-list {
+  .anticon-list {
     display: inline-block;
     width: 20px;
     height: 75px;
@@ -81,7 +81,7 @@ $serviceLeftWidth: 240px;
     display: inline-block;
     font-size: 14px;
     border-left: 1px solid #E9E9E9;
-    .service-quit {
+    .anticon-quit {
       font-size: 20px;
       margin-right: 5px;
       margin-top: 27px;
@@ -273,7 +273,7 @@ $serviceLeftWidth: 240px;
     i{
       display: inline-block;
       vertical-align: middle;
-      margin-top: 0;
+      margin-top: -4px;
       margin-right: 2px;
     }
     &:hover {

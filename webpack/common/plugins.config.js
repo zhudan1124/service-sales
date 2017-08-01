@@ -23,7 +23,7 @@ let plugins = [
   new webpack.optimize.CommonsChunkPlugin({
     name: 'manifest' //But since there are no more common modules between them we end up with just the runtime code included in the manifest file
   }),
-  new ExtractTextPlugin('static/css/[name].[hash:8].min.css'),
+  new ExtractTextPlugin('static/css/[name].min.css'),
   new webpack.NoEmitOnErrorsPlugin(),
   new webpack.LoaderOptionsPlugin({
     options: {

@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'service';
-  src:  url('fonts/service.eot?ruj1cj');
-  src:  url('fonts/service.eot?ruj1cj#iefix') format('embedded-opentype'),
-    url('fonts/service.ttf?ruj1cj') format('truetype'),
-    url('fonts/service.woff?ruj1cj') format('woff'),
-    url('fonts/service.svg?ruj1cj#service') format('svg');
+  font-family: 'dhmsicon';
+  src:  url('fonts/dhmsicon.eot?6nqmir');
+  src:  url('fonts/dhmsicon.eot?6nqmir#iefix') format('embedded-opentype'),
+  url('fonts/dhmsicon.ttf?6nqmir') format('truetype'),
+  url('fonts/dhmsicon.woff?6nqmir') format('woff'),
+  url('fonts/dhmsicon.svg?6nqmir#dhmsicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="service-"], [class*=" service-"] {
+[class^="anticon-"], [class*=" anticon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'service' !important;
+  font-family: 'dhmsicon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,33 +24,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.service-add:before {
+.anticon-change:before {
+  content: "\e90a";
+}
+.anticon-cancel:before {
+  content: "\e90b";
+}
+.anticon-history:before {
+  content: "\e90c";
+}
+.anticon-modify:before {
+  content: "\e90d";
+}
+.anticon-see:before {
+  content: "\e90e";
+}
+.anticon-add:before {
   content: "\e900";
 }
-.service-all:before {
+.anticon-all:before {
   content: "\e901";
 }
-.service-finished:before {
+.anticon-finished:before {
   content: "\e902";
 }
-.service-home-list:before {
+.anticon-home-list:before {
   content: "\e903";
 }
-.service-home:before {
+.anticon-home:before {
   content: "\e904";
 }
-.service-list-add:before {
+.anticon-list-add:before {
   content: "\e905";
 }
-.service-list:before {
+.anticon-list:before {
   content: "\e906";
 }
-.service-quit:before {
+.anticon-quit:before {
   content: "\e907";
 }
-.service-set:before {
+.anticon-set:before {
   content: "\e908";
 }
-.service-untreated:before {
+.anticon-untreated:before {
   content: "\e909";
 }

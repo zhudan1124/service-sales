@@ -14,9 +14,9 @@ const List = () => (
         <p className="font16 job-number font16">
           工单号：0001
           <a className="modify font14 color-white">正在处理</a>
-          <a className="fr button button-link"><i className="service-add" />修改</a>
-          <a className="fr button button-link"><i className="service-add" />撤单</a>
-          <a className="fr button button-link"><i className="service-add" />换人</a>
+          <a className="fr button button-link"><i className="anticon-add" />修改</a>
+          <a className="fr button button-link"><i className="anticon-add" />撤单</a>
+          <a className="fr button button-link"><i className="anticon-add" />换人</a>
         </p>
         <div className="fl label-info dhms-sm-5 dhms-xs-24">
           <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -38,9 +38,9 @@ const List = () => (
         <p className="font16 job-number font16">
           工单号：0001
           <a className="modify font14 color-white">正在处理</a>
-          <a className="fr button button-link"><i className="service-add" />修改</a>
-          <a className="fr button button-link"><i className="service-add" />撤单</a>
-          <a className="fr button button-link"><i className="service-add" />换人</a>
+          <a className="fr button button-link"><i className="anticon-add" />修改</a>
+          <a className="fr button button-link"><i className="anticon-add" />撤单</a>
+          <a className="fr button button-link"><i className="anticon-add" />换人</a>
         </p>
         <div className="fl label-info dhms-sm-5 dhms-xs-24">
           <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -62,9 +62,9 @@ const List = () => (
         <p className="font16 job-number font16">
           工单号：0001
           <a className="modify font14 color-white">正在处理</a>
-          <a className="fr button button-link"><i className="service-add" />修改</a>
-          <a className="fr button button-link"><i className="service-add" />撤单</a>
-          <a className="fr button button-link"><i className="service-add" />换人</a>
+          <a className="fr button button-link"><i className="anticon-add" />修改</a>
+          <a className="fr button button-link"><i className="anticon-add" />撤单</a>
+          <a className="fr button button-link"><i className="anticon-add" />换人</a>
         </p>
         <div className="fl label-info dhms-sm-5 dhms-xs-24">
           <p><span className="color-super-gray">客户：</span>许厂矿</p>

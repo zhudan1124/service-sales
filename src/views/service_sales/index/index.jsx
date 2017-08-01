@@ -5,7 +5,7 @@ const Index = () => (
     <div className="clearfix index-tag">
       <div className="dhms-md-6 dhms-xs-24 index-list">
         <div className="bg-white list-info clearfix">
-          <span className="all fl icon-box"><i className="service-all color-white" /></span>
+          <span className="all fl icon-box"><i className="anticon-all color-white" /></span>
           <div className="list-word fl font16 color-black">
             全部<br /><a className="unmber color-super-gray">666</a>
           </div>
@@ -13,7 +13,7 @@ const Index = () => (
       </div>
       <div className="dhms-md-6 dhms-xs-24 index-list">
         <div className="bg-white list-info clearfix">
-          <span className="set fl icon-box"><i className="service-set color-white" /></span>
+          <span className="set fl icon-box"><i className="anticon-set color-white" /></span>
           <div className="list-word fl font16 color-black">
             正在处理<br /><a className="unmber color-super-gray">666</a>
           </div>
@@ -21,7 +21,7 @@ const Index = () => (
       </div>
       <div className="dhms-md-6 dhms-xs-24 index-list">
         <div className="bg-white list-info clearfix">
-          <span className="untreated fl icon-box"><i className="service-untreated color-white" /></span>
+          <span className="untreated fl icon-box"><i className="anticon-untreated color-white" /></span>
           <div className="list-word fl font16 color-black">
             未处理<br /><a className="unmber color-super-gray">666</a>
           </div>
@@ -29,7 +29,7 @@ const Index = () => (
       </div>
       <div className="dhms-md-6 dhms-xs-24 index-list">
         <div className="bg-white list-info clearfix">
-          <span className="finished fl icon-box"><i className="service-finished color-white" /></span>
+          <span className="finished fl icon-box"><i className="anticon-finished color-white" /></span>
           <div className="list-word fl font16 color-black">
             完成<br /><a className="unmber color-super-gray">666</a>
           </div>
@@ -40,7 +40,7 @@ const Index = () => (
       <div className="blank20" />
       <div className="dhms-xs-24">
         <div className="add-new text-center">
-          <i className="service-list-add color-white" /><br /><span className="color-white font16">开工单</span>
+          <i className="anticon-list-add color-white" /><br /><span className="color-white font16">开工单</span>
         </div>
       </div>
       <div className="blank20" />
@@ -55,9 +55,9 @@ const Index = () => (
           <p className="font16 job-number font16">
             工单号：0001
             <a className="modify font14 color-white">正在处理</a>
-            <a className="fr button button-link"><i className="service-add" />修改</a>
-            <a className="fr button button-link"><i className="service-add" />撤单</a>
-            <a className="fr button button-link"><i className="service-add" />换人</a>
+            <a className="fr button button-link"><i className="anticon-add" />修改</a>
+            <a className="fr button button-link"><i className="anticon-add" />撤单</a>
+            <a className="fr button button-link"><i className="anticon-add" />换人</a>
           </p>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -79,9 +79,9 @@ const Index = () => (
           <p className="font16 job-number font16">
             工单号：0001
             <a className="modify font14 color-white">正在处理</a>
-            <a className="fr button button-link"><i className="service-add" />修改</a>
-            <a className="fr button button-link"><i className="service-add" />撤单</a>
-            <a className="fr button button-link"><i className="service-add" />换人</a>
+            <a className="fr button button-link"><i className="anticon-add" />修改</a>
+            <a className="fr button button-link"><i className="anticon-add" />撤单</a>
+            <a className="fr button button-link"><i className="anticon-add" />换人</a>
           </p>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -100,13 +100,16 @@ const Index = () => (
           </div>
         </li>
         <li className="bg-white color-black font14 clearfix">
-          <p className="font16 job-number font16">
+          <div className="font16 job-number font16">
             工单号：0001
             <a className="modify font14 color-white">正在处理</a>
-            <a className="fr button button-link"><i className="service-add" />修改</a>
-            <a className="fr button button-link"><i className="service-add" />撤单</a>
-            <a className="fr button button-link"><i className="service-add" />换人</a>
-          </p>
+            <a className="fr button button-link"><i className="anticon-modify" />修改</a>
+            <a className="fr button button-link"><i className="anticon-change" />换人</a>
+            <a className="fr button button-link"><i className="anticon-cancel" />撤单</a>
+            <a className="fr button button-link"><i className="anticon-history" />历史</a>
+            <a className="fr button button-link"><i className="anticon-see" />查看</a>
+
+          </div>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>
             <p><span className="color-super-gray">产品：</span>可制动装置</p>
