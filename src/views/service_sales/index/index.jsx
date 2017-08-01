@@ -2,7 +2,7 @@ import React from 'react'
 const Index = () => (
   <div className="service-content">
     <div className="blank20" />
-    <div className="clearfix">
+    <div className="clearfix index-tag">
       <div className="dhms-md-6 dhms-xs-24 index-list">
         <div className="bg-white list-info clearfix">
           <span className="all fl icon-box"><i className="service-all color-white" /></span>
@@ -52,10 +52,12 @@ const Index = () => (
       <div className="blank20" />
       <ul className="process-list">
         <li className="bg-white color-black font14 clearfix">
-          <button className="button process-button font16">撤单</button>
           <p className="font16 job-number font16">
             工单号：0001
-            <a className="modify font14 color-white">修改</a>
+            <a className="modify font14 color-white">正在处理</a>
+            <a className="fr button button-link"><i className="service-add" />修改</a>
+            <a className="fr button button-link"><i className="service-add" />撤单</a>
+            <a className="fr button button-link"><i className="service-add" />换人</a>
           </p>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -74,10 +76,12 @@ const Index = () => (
           </div>
         </li>
         <li className="bg-white color-black font14 clearfix">
-          <button className="button process-button font16">撤单</button>
           <p className="font16 job-number font16">
             工单号：0001
-            <a className="modify font14 color-white">修改</a>
+            <a className="modify font14 color-white">正在处理</a>
+            <a className="fr button button-link"><i className="service-add" />修改</a>
+            <a className="fr button button-link"><i className="service-add" />撤单</a>
+            <a className="fr button button-link"><i className="service-add" />换人</a>
           </p>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>
@@ -96,10 +100,12 @@ const Index = () => (
           </div>
         </li>
         <li className="bg-white color-black font14 clearfix">
-          <button className="button process-button font16">撤单</button>
           <p className="font16 job-number font16">
             工单号：0001
-            <a className="modify font14 color-white">修改</a>
+            <a className="modify font14 color-white">正在处理</a>
+            <a className="fr button button-link"><i className="service-add" />修改</a>
+            <a className="fr button button-link"><i className="service-add" />撤单</a>
+            <a className="fr button button-link"><i className="service-add" />换人</a>
           </p>
           <div className="fl label-info dhms-sm-5 dhms-xs-24">
             <p><span className="color-super-gray">客户：</span>许厂矿</p>

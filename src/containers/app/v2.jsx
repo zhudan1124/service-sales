@@ -4,6 +4,7 @@ import Header from '../../views/service_sales/header'
 import Order from '../../views/service_sales/order'
 import Index from '../../views/service_sales/index'
 import List from '../../views/service_sales/list'
+import OrderTab from '../../views/service_sales/order_tab'
 
 import '../../../static/css/common.scss'
 import '../../../static/fonts_style.css'
@@ -17,6 +18,7 @@ const App = () => {
         <Order />
         <Index />
         <List />
+        <OrderTab />
       </div>
       <Nar />
     </div>

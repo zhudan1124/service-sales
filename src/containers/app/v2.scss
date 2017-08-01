@@ -133,7 +133,7 @@ $serviceLeftWidth: 240px;
         padding: 0;
       }
     }
-    input, textarea {
+    input {
       font-size: 16px;
       min-height: 45px;
       line-height: 25px;
@@ -161,11 +161,11 @@ $serviceLeftWidth: 240px;
 }
 
 /* index */
+.index-tag {
+  margin-left: -20px;
+}
 .index-list {
   padding: 0 0 0 20px;
-  &:first-child {
-    padding: 0;
-  }
   .list-info {
     padding: 20px;
     height: 120px;
@@ -216,6 +216,7 @@ $serviceLeftWidth: 240px;
   height: 120px;
   line-height: 24px;
   padding: 20px;
+  margin: 0 10px;
   background: $colorMain;
   cursor: pointer;
   i {
@@ -260,6 +261,25 @@ $serviceLeftWidth: 240px;
   width: 100%;
   line-height: 22px;
   padding: 11px 0;
+  .button {
+    height: 22px;
+    line-height: 22px;
+    padding: 0;
+    color: #666 ;
+    margin-left: 15px;
+    &:first-child {
+      margin-left: 0;
+    }
+    i{
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: 0;
+      margin-right: 2px;
+    }
+    &:hover {
+      color: #FD8A03;
+    }
+  }
   .modify {
     color: #fff !important;
     margin-left: 20px;

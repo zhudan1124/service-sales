@@ -6,7 +6,7 @@ const dirVars = require('./base/dir_vars.config')
 
 process.traceDeprecation = true
 
-//MODULE
+// MODULE
 let modules = require('./loaders.dev.config')
 modules.rules.push({
   enforce: 'pre',
