@@ -2,8 +2,8 @@ import React from 'react'
 const Order = () => (
   <div className="service-content">
     <div className="name font20"><strong>创建工单</strong></div>
-    <div className=" clearfix bg-white">
-      <div className="div-table no-div-table">
+    <div className=" clearfix">
+      <div className="div-table no-div-table fl bg-white" style={{width: `60%`}}>
         <div className="div-table-tr">
           <div className="dhms-sm-3 dhms-xs-5 text-right"><span className="font16 color-black">工单号</span></div>
           <div className="dhms-sm-6 dhms-xs-10 has-error">
@@ -55,6 +55,34 @@ const Order = () => (
           <div className="dhms-sm-8 dhms-xs-10">
             <button className="button button-success">提交</button>
           </div>
+        </div>
+      </div>
+      <div className="fr flow-box">
+        <div className="flow">
+          <div className="no-flow">暂无数据</div>
+          <p className="flow-name font14">此订单总共耗时3天23时</p>
+          <ul className="flow-list">
+            <li>
+              <i className="active" />
+              <strong className="font14 color-gray">已完成</strong><br />
+              江苏省苏州市新区竹园路200号
+            </li>
+            <li>
+              <i />
+              <strong className="font14 color-gray">处理中</strong><br />
+              江苏省苏州市新区竹园路200号
+            </li>
+            <li>
+              <i />
+              <strong className="font14 color-gray">处理中</strong><br />
+              江苏省苏州市新区竹园路200号
+            </li>
+            <li>
+              <i />
+              <strong className="font14 color-gray">处理中</strong><br />
+              江苏省苏州市新区竹园路200号
+            </li>
+          </ul>
         </div>
       </div>
     </div>
